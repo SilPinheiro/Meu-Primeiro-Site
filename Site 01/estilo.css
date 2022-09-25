@@ -1,0 +1,70 @@
+body {
+    margin: 2px;
+    border: 10px solid gray;
+    background-color: turquoise;
+    font-family: Verdana;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#parte1 {
+    background-color: blue;
+    color: rgba(145, 11, 11, 0.885);
+    text-align: center;
+}
+
+#parte2 {
+    background-color: blue;
+    color: rgba(29, 11, 145, 0.885);
+    text-align: calc();
+}
+
+.imgfull {
+    border-radius: 50%;
+    border: 5px solid blue;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    transition: width 2s, height 4s;
+    border-radius: 20px;
+}
+
+
+img:hover {
+    width: 300px;
+    height: 300px;
+}
+
+#petiscos {
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;    
+}
+
+table{
+    width: 60%;
+    margin-bottom : .5em;
+    margin-left: 20%;
+    table-layout: fixed;
+    text-align: center;
+  }
+
+  
